@@ -1,0 +1,220 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+.content-header{
+    background-color: lightskyblue;
+    text-align: center;
+    color: black;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
+
+h1{
+    position: relative;
+    top: 20px;
+}
+
+.divbut{
+    position: relative;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.wh-button{
+    background-color: deepskyblue;
+    padding: 10px 20px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.div-pai-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div-h1{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.nav{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 5px;
+}
+.content-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-li{
+    display: inline-flex;
+    margin-right: 20px;
+    background-color: lightgray;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.content-link{
+    text-decoration: none;
+    color: black;
+}
+
+#home{
+    background-color: #e5ebf7;
+}
+.div-pai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div3{
+    position: relative;
+}
+.div4{
+    font-size: 2rem;
+}
+.agbut{
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    padding-right: 35%;
+}
+.agend-but{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #bfceef;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+.divvid{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div5{
+    vertical-align: baseline;
+    padding-left: 10%;
+    background-color: #e9eef7;
+    margin: 3%;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content-ul2{
+    padding-left: 2%;
+    font-size: 1.3rem;
+    padding-top: 10px;
+}
+.content-li2{
+    display: list-item;
+    padding-bottom: 2px;
+    margin-right: 10%;
+}
+.content-p{
+    margin: 5px;
+    margin-right: 10%;
+    font-size: 1.5rem;
+}
+.content-h3{
+    color: rgb(0, 45, 59);
+    font-size: 3rem;
+    padding-right: 12%;
+}
+.content-h32{
+    color: rgb(0, 45, 59);
+    text-align: start;
+    font-size: 1.7rem;
+}
+.content-span{
+    font-weight: bold;
+}
+.agbut2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+.agend-but2{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #bfceef;
+    font-size: 1.3rem;
+}
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 20%;
+}
+.div-foto{
+    
+}
+.div-txt{
+    padding-top: 80px;
+}
+.div-txt2{
+    margin-right: 10%;
+    margin-left: 20%;
+}
+.content-p2{
+    font-size: 1.1rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.divh4{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.div7{
+    background-color: #e9eef7;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content-footer{
+    background-color: #e9eef7;
+    padding: 20px;
+    text-align: center;
+}
